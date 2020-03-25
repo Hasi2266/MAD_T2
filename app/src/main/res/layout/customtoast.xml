@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/custom_toast_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F14E23"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:lyout_editor_absoluteY="65dp">
+
+        <ImageView
+            android:id="@+id/custom_toast_image"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:contentDescription="@string/hello"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop"
+            app:srcCompat="@android:drawable/toast_frame" />
+
+        <TextView
+            android:id="@+id/custom_toast_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/toast_msg"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

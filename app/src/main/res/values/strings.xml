@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="no1">Number 1</string>
+    <string name="no2">Number 2</string>
+    <string name="btn_ok">OK</string>
+    <string name="answer" />
+    <string name="btn_add">+</string>
+    <string name="btn_sub">-</string>
+    <string name="btn_multi">*</string>
+    <string name="btn_divide" />
+    <string name="btn_divid">/</string>
+    <string name="hello">Hello World</string>
+    <string name="toastMsg">To</string>
+    <string name="Toasmsg">Custom Toast</string>
+    <string name="toast_msg">Custom Toast</string>
+    <string name="custom_toast">Custom Toast</string>
+    <string name="btn_calc">CALCULATOR</string>
+</resources>
